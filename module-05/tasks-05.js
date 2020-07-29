@@ -71,18 +71,22 @@
 
 
 // class Storage {
-//   constructor([...items]) {
+//   constructor(items) {
 //     this.items = items;
-//   };
-
+//   }
 //   getItems() {
 //     return this.items;
-//   };
+//   }
 //   addItem(item) {
-//     items.push(item);
-//   };
+//     this.items.push(item);
+//     // console.log(item)
+//   }
 //   removeItem(item) {
-//     items.splice(item[item]);
+//     let index = this.items.indexOf(item);
+//     console.log(index);
+//     if (index !== -1) {
+//       this.items.splice(index, 1)
+//     }
 //   }
 // }
 // const storage = new Storage([
